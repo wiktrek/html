@@ -8,17 +8,25 @@
     <title>Strona internetowa</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="justify-center items-center align-center">
-    <div id="app" class="bg-slate-700 h-screen text-white text-xl">
-      <p>Strona internetowa</p>
+  <body class="bg-[#0f1f1e] text-[#ffffff] text-4xl font-semibold">
+    <div
+      class="h-screen text-xl justify-center items-center align-center w-screen"
+    >
+      <marquee class="text-4xl font-extrabold" behavior="alternate">
+        Tekst
+      </marquee>
       <p>
         <a href="https://github.com/wiktrek/html" target="_blank">
           kod źródłowy
         </a>
       </p>
-      <marquee class="text-4xl font-extrabold" behavior="alternate">
-        Tekst
-      </marquee>
+
+      <a>Tagi</a>
+      <ul>
+        <li><a href="tag/a">a</a></li>
+        <li><a href="tag/p">p</a></li>
+        <li><a href="tag/div">div</a></li>
+      </ul>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
