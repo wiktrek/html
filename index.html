@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="src/global.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strona internetowa</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -10,8 +11,14 @@
   <body class="justify-center items-center align-center">
     <div id="app" class="bg-slate-700 h-screen text-white text-xl">
       <p>Strona internetowa</p>
-      <p>kod źródłowy</p>
-      <marquee class="text-4xl font-extrabold">Tekst</marquee>
+      <p>
+        <a href="https://github.com/wiktrek/html" target="_blank">
+          kod źródłowy
+        </a>
+      </p>
+      <marquee class="text-4xl font-extrabold" behavior="alternate">
+        Tekst
+      </marquee>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
