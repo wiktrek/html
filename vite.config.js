@@ -8,6 +8,7 @@ const paths = {
   html: resolve(__dirname, 'tag/html.html'),
   head: resolve(__dirname, 'tag/head.html'),
   body: resolve(__dirname, 'tag/body.html'),
+  tools: resolve(__dirname, 'tools.html'),
 };
 /** @type {import('vite').UserConfig} */
 export default {
